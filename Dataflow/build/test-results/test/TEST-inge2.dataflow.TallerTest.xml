@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="inge2.dataflow.TallerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-19T23:16:16" hostname="archlinux" time="0.582">
+<testsuite name="inge2.dataflow.TallerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-08-25T23:16:54" hostname="archlinux" time="0.727">
   <properties/>
-  <testcase name="testTarget6()" classname="inge2.dataflow.TallerTest" time="0.582"/>
-  <system-out><![CDATA[Soot started on Mon Aug 19 20:16:16 ART 2024
-Soot finished on Mon Aug 19 20:16:16 ART 2024
+  <testcase name="testTarget1()" classname="inge2.dataflow.TallerTest" time="0.337"/>
+  <testcase name="testTarget2()" classname="inge2.dataflow.TallerTest" time="0.088"/>
+  <testcase name="testTarget3()" classname="inge2.dataflow.TallerTest" time="0.069"/>
+  <testcase name="testTarget4()" classname="inge2.dataflow.TallerTest" time="0.082"/>
+  <testcase name="testTarget5()" classname="inge2.dataflow.TallerTest" time="0.048"/>
+  <testcase name="testTarget6()" classname="inge2.dataflow.TallerTest" time="0.047"/>
+  <testcase name="testTarget7()" classname="inge2.dataflow.TallerTest" time="0.05"/>
+  <system-out><![CDATA[Soot started on Sun Aug 25 20:16:54 ART 2024
+Soot finished on Sun Aug 25 20:16:54 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:54 ART 2024
+Soot finished on Sun Aug 25 20:16:54 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:54 ART 2024
+Soot finished on Sun Aug 25 20:16:54 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:54 ART 2024
+Soot finished on Sun Aug 25 20:16:55 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:55 ART 2024
+Soot finished on Sun Aug 25 20:16:55 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:55 ART 2024
+Soot finished on Sun Aug 25 20:16:55 ART 2024
+Soot has run for 0 min. 0 sec.
+Soot started on Sun Aug 25 20:16:55 ART 2024
+Soot finished on Sun Aug 25 20:16:55 ART 2024
 Soot has run for 0 min. 0 sec.
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[[Thread-6] ERROR inge2.dataflow.Launcher - Found a possible division by zero in line 7
+[Thread-10] ERROR inge2.dataflow.Launcher - Found a possible division by zero in line 7
+[Thread-14] ERROR inge2.dataflow.Launcher - Found a possible division by zero in line 6
+[Thread-18] ERROR inge2.dataflow.Launcher - Found a possible division by zero in line 11
+[Thread-30] ERROR inge2.dataflow.Launcher - Found a possible division by zero in line 7
+]]></system-err>
 </testsuite>
