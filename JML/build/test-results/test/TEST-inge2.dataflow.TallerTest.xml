@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="inge2.dataflow.TallerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-09-09T21:42:19" hostname="archlinux" time="40.878">
+  <properties/>
+  <testcase name="testAbsoluto()" classname="inge2.dataflow.TallerTest" time="6.78"/>
+  <testcase name="testBusquedaLineal()" classname="inge2.dataflow.TallerTest" time="7.081"/>
+  <testcase name="testSetup()" classname="inge2.dataflow.TallerTest" time="6.71"/>
+  <testcase name="testMapSumaUno()" classname="inge2.dataflow.TallerTest" time="6.837"/>
+  <testcase name="testStackAr()" classname="inge2.dataflow.TallerTest" time="13.468"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
