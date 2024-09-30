@@ -61,8 +61,28 @@ Muertos: 69
   Por misma razon que el anterior, nunca entra en el if
 
 ### d)
+
 59%
 
 ### e)
+
 StackArMutated687 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 19.)
 Este mutate hace que siempre se tire error al crear el stack por lo que no permite ejecutar el resto de instrucciones del stack
+
+## 4
+
+### a)
+
+373
+
+### b)
+
+No
+
+### c)
+
+100%
+
+## 5
+### a)
+17 tests fallaron
