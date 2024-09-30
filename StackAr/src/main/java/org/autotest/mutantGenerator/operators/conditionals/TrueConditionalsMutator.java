@@ -1,6 +1,7 @@
 package org.autotest.mutantGenerator.operators.conditionals;
 
 import org.autotest.mutantGenerator.operators.MutationOperator;
+import spoon.reflect.code.CtExpression;
 import spoon.reflect.code.CtIf;
 import spoon.reflect.declaration.CtElement;
 
@@ -17,7 +18,13 @@ public class TrueConditionalsMutator extends MutationOperator {
             return false;
         }
 
-        return candidate instanceof CtIf;
+        if (!(candidate instanceof CtIf)) {
+            return false;
+        }
+
+        CtIf op = (CtIf) candidate;
+        CtExpression<Boolean> c = op.getCondition();
+        return !c.toString().equals("true");
     }
 
     @Override

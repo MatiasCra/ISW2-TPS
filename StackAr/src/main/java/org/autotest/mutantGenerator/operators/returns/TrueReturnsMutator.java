@@ -28,8 +28,12 @@ public class TrueReturnsMutator extends MutationOperator {
         CtReturn op = (CtReturn) candidate;
         String type = getReturnedExpressionType(op);
         List<String> targetTypes = Arrays.asList("boolean");
-        return targetTypes.contains(type);
 
+        if (!targetTypes.contains(type)) {
+            return false;
+        }
+        CtExpression e = op.getReturnedExpression();
+        return !e.toString().equals("true");
     }
 
     @Override

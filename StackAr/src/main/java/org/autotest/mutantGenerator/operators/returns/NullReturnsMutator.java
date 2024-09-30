@@ -28,12 +28,12 @@ public class NullReturnsMutator extends MutationOperator {
 
         CtReturn op = (CtReturn) candidate;
         String type = getReturnedExpressionType(op);
-        List<String> exeptionTypes = Arrays.asList(
-                "java.lang.String",
-                "int",
-                "boolean"
-        );
-        return !exeptionTypes.contains(type);
+        List<String> exeptionTypes = Arrays.asList("java.lang.String", "int", "boolean");
+        if (exeptionTypes.contains(type)) {
+            return false;
+        }
+        CtExpression e = op.getReturnedExpression();
+        return !e.toString().equals("null");
     }
 
     @Override

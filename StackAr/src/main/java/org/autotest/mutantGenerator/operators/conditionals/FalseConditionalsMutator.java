@@ -3,10 +3,6 @@ package org.autotest.mutantGenerator.operators.conditionals;
 import org.autotest.mutantGenerator.operators.MutationOperator;
 import spoon.reflect.code.*;
 import spoon.reflect.declaration.CtElement;
-import spoon.support.reflect.code.CtLiteralImpl;
-
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Operador de mutación basado en https://pitest.org/quickstart/mutators/#REMOVE_CONDITIONALS
@@ -21,7 +17,13 @@ public class FalseConditionalsMutator extends MutationOperator {
             return false;
         }
 
-        return candidate instanceof CtIf;
+        if (!(candidate instanceof CtIf)) {
+            return false;
+        }
+
+        CtIf op = (CtIf) candidate;
+        CtExpression<Boolean> c = op.getCondition();
+        return !c.toString().equals("false");
     }
 
     @Override

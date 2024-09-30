@@ -35,7 +35,7 @@ public class OneConstantMutator extends MutationOperator {
             return false;
         }
 
-        return !Objects.equals(op.getValue().toString(), "0");
+        return !Objects.equals(op.getValue().toString(), "1");
     }
 
     @Override

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.autotest.StackTests2" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-23T21:52:36" hostname="archlinux" time="0.533">
+<testsuite name="org.autotest.StackTests2" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-30T20:31:18" hostname="archlinux" time="0.437">
   <properties/>
-  <testcase name="run()" classname="org.autotest.StackTests2" time="0.533"/>
+  <testcase name="run()" classname="org.autotest.StackTests2" time="0.437"/>
   <system-out><![CDATA[-> Corriendo tests de StackTests2 para la clase: StackAr (Stack original)
 -> Corriendo tests de StackTests2 para la clase: StackArMutated9593 (MinusOneConstantMutator: Se reemplazó 31 por -1 en la línea 87.)
 -> Corriendo tests de StackTests2 para la clase: StackArMutated2916 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 19.)
@@ -199,6 +199,6 @@
     - StackArMutated7690 (MathMutator: Se reemplazó * por / en la línea 89.)
 -> Mutation score: 41%
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 165 ms to scan 1 urls, producing 1 keys and 79 values
+  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 145 ms to scan 1 urls, producing 1 keys and 79 values
 ]]></system-err>
 </testsuite>

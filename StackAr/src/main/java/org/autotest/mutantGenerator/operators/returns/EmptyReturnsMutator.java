@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Operador de mutación basado en https://pitest.org/quickstart/mutators/#EMPTY_RETURNS
- *
+ * <p>
  * Este operador reemplaza los valores de retorno de las funciones que devuelven String o int por valores "vacíos".
  * Por ejemplo, si la función tiene que devolver un String se reemplaza por "".
  * Si tiene que devolver un int se reemplaza por 0.
@@ -27,18 +27,28 @@ public class EmptyReturnsMutator extends MutationOperator {
             return false;
         }
 
-        CtReturn op = (CtReturn)candidate;
+        CtReturn op = (CtReturn) candidate;
         String type = getReturnedExpressionType(op);
         List<String> targetTypes = Arrays.asList(
-            "java.lang.String",
-            "int"
+                "java.lang.String",
+                "int"
         );
-        return targetTypes.contains(type);
+        if (!targetTypes.contains(type)) {
+            return false;
+        }
+
+        if (type.equals("int")) {
+            return !op.getReturnedExpression().toString().equals("0");
+        } else if (type.equals("java.lang.String")) {
+            return !op.getReturnedExpression().toString().isEmpty();
+        }
+
+        return false;
     }
 
     @Override
     public void process(CtElement candidate) {
-        CtReturn op = (CtReturn)candidate;
+        CtReturn op = (CtReturn) candidate;
         op.setReturnedExpression(getEmptyValueForReturnExpression(op));
     }
 
@@ -59,7 +69,7 @@ public class EmptyReturnsMutator extends MutationOperator {
 
     @Override
     public String describeMutation(CtElement candidate) {
-        CtReturn op = (CtReturn)candidate;
+        CtReturn op = (CtReturn) candidate;
         return this.getClass().getSimpleName() + ": Se reemplazó " +
                 op.getReturnedExpression().toString() + " por " + getEmptyValueForReturnExpression(op).toString() +
                 " en la línea " + op.getPosition().getLine() + ".";
