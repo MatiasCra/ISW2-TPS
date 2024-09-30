@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.autotest.generated.RegressionTest7" tests="23" skipped="0" failures="0" errors="0" timestamp="2024-09-30T22:36:51" hostname="archlinux" time="0.032">
+  <properties/>
+  <testcase name="test351()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test352()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test353()" classname="org.autotest.generated.RegressionTest7" time="0.0"/>
+  <testcase name="test354()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test355()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test356()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test357()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test358()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test359()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test360()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test361()" classname="org.autotest.generated.RegressionTest7" time="0.0"/>
+  <testcase name="test362()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test363()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test364()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test365()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test366()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test367()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test368()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test369()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test370()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test371()" classname="org.autotest.generated.RegressionTest7" time="0.001"/>
+  <testcase name="test372()" classname="org.autotest.generated.RegressionTest7" time="0.0"/>
+  <testcase name="test373()" classname="org.autotest.generated.RegressionTest7" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
