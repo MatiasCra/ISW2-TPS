@@ -3,39 +3,41 @@
 import org.autotest.mutantGenerator.operators.MutationOperator;
 import spoon.reflect.code.*;
 import spoon.reflect.declaration.CtElement;
-import spoon.support.reflect.code.CtLiteralImpl;
-
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Operador de mutación basado en https://pitest.org/quickstart/mutators/#REMOVE_CONDITIONALS
  * &lt;p&gt;
  * Este operador reemplaza los valores en las condiciones de guardas por false.
  */
-<span class="nc" id="L16">public class FalseConditionalsMutator extends MutationOperator {</span>
+<span class="nc" id="L12">public class FalseConditionalsMutator extends MutationOperator {</span>
     @Override
     public boolean isToBeProcessed(CtElement candidate) {
         // llamo al método super para verificar que el candidato no es parte de randoop.CheckRep: repOK method
-<span class="nc bnc" id="L20" title="All 2 branches missed.">        if (!super.isToBeProcessed(candidate)) {</span>
+<span class="nc bnc" id="L16" title="All 2 branches missed.">        if (!super.isToBeProcessed(candidate)) {</span>
+<span class="nc" id="L17">            return false;</span>
+        }
+
+<span class="nc bnc" id="L20" title="All 2 branches missed.">        if (!(candidate instanceof CtIf)) {</span>
 <span class="nc" id="L21">            return false;</span>
         }
 
-<span class="nc" id="L24">        return candidate instanceof CtIf;</span>
+<span class="nc" id="L24">        CtIf op = (CtIf) candidate;</span>
+<span class="nc" id="L25">        CtExpression&lt;Boolean&gt; c = op.getCondition();</span>
+<span class="nc bnc" id="L26" title="All 2 branches missed.">        return !c.toString().equals(&quot;false&quot;);</span>
     }
 
     @Override
     public void process(CtElement candidate) {
-<span class="nc" id="L29">        CtIf op = (CtIf) candidate;</span>
-<span class="nc" id="L30">        op.setCondition(op.getFactory().Code().createLiteral(false));</span>
-<span class="nc" id="L31">    }</span>
+<span class="nc" id="L31">        CtIf op = (CtIf) candidate;</span>
+<span class="nc" id="L32">        op.setCondition(op.getFactory().Code().createLiteral(false));</span>
+<span class="nc" id="L33">    }</span>
 
     @Override
     public String describeMutation(CtElement candidate) {
-<span class="nc" id="L35">        CtIf op = (CtIf) candidate;</span>
-<span class="nc" id="L36">        return this.getClass().getSimpleName() + &quot;: Se reemplazó &quot; +</span>
-<span class="nc" id="L37">                op.getCondition().toString() + &quot; por false&quot; +</span>
-<span class="nc" id="L38">                &quot; en la línea &quot; + op.getPosition().getLine() + &quot;.&quot;;</span>
+<span class="nc" id="L37">        CtIf op = (CtIf) candidate;</span>
+<span class="nc" id="L38">        return this.getClass().getSimpleName() + &quot;: Se reemplazó &quot; +</span>
+<span class="nc" id="L39">                op.getCondition().toString() + &quot; por false&quot; +</span>
+<span class="nc" id="L40">                &quot; en la línea &quot; + op.getPosition().getLine() + &quot;.&quot;;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

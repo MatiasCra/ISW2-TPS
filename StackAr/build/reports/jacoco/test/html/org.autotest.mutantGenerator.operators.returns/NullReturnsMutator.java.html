@@ -28,12 +28,12 @@ import java.util.List;
 
 <span class="nc" id="L29">        CtReturn op = (CtReturn) candidate;</span>
 <span class="nc" id="L30">        String type = getReturnedExpressionType(op);</span>
-<span class="nc" id="L31">        List&lt;String&gt; exeptionTypes = Arrays.asList(</span>
-                &quot;java.lang.String&quot;,
-                &quot;int&quot;,
-                &quot;boolean&quot;
-        );
-<span class="nc bnc" id="L36" title="All 2 branches missed.">        return !exeptionTypes.contains(type);</span>
+<span class="nc" id="L31">        List&lt;String&gt; exeptionTypes = Arrays.asList(&quot;java.lang.String&quot;, &quot;int&quot;, &quot;boolean&quot;);</span>
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        if (exeptionTypes.contains(type)) {</span>
+<span class="nc" id="L33">            return false;</span>
+        }
+<span class="nc" id="L35">        CtExpression e = op.getReturnedExpression();</span>
+<span class="nc bnc" id="L36" title="All 2 branches missed.">        return !e.toString().equals(&quot;null&quot;);</span>
     }
 
     @Override
