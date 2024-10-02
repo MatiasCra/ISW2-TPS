@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Mutant.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">StackAr</a> &gt; <a href="index.source.html" class="el_package">org.autotest.mutantGenerator</a> &gt; <span class="el_source">Mutant.java</span></div><h1>Mutant.java</h1><pre class="source lang-java linenums">package org.autotest.mutantGenerator;
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Mutant.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">StackAr</a> &gt; <a href="index.source.html" class="el_package">org.autotest.mutantGenerator</a> &gt; <span class="el_source">Mutant.java</span></div><h1>Mutant.java</h1><pre class="source lang-java linenums">package org.autotest.mutantGenerator;
 
 import spoon.reflect.declaration.CtClass;
 
@@ -26,7 +26,7 @@ public class Mutant {
     private final CtClass mutatedSpoonClass;
 
     /**
-     * Una descripci��n del mutante generado.
+     * Una descripción del mutante generado.
      */
     private final String mutationDescription;
 
@@ -44,7 +44,7 @@ public class Mutant {
 <span class="nc" id="L44">    }</span>
 
     /**
-     * Devuelve la descripci��n del mutante.
+     * Devuelve la descripción del mutante.
      */
     public String getMutationDescription() {
 <span class="nc" id="L50">        return mutationDescription;</span>
@@ -66,7 +66,7 @@ public class Mutant {
 <span class="nc" id="L66">    }</span>
 
     /**
-     * Escribe el c��digo del mutante a la carpeta indicada.
+     * Escribe el código del mutante a la carpeta indicada.
      */
     public void writeToFolder(String folderPath) throws IOException {
         // Agregamos &quot;org/autotest/mutants&quot; al path para que corresponda con el paquete de la clase.
@@ -81,13 +81,13 @@ public class Mutant {
 <span class="nc" id="L81">        String mutantFileName = mutantClassName + &quot;.java&quot;;</span>
 <span class="nc" id="L82">        Path mutantFilePath = Paths.get(destFolder.toString(), mutantFileName);</span>
 
-        // Armamos el c��digo de la clase y reemplazamos el nombre original (StackAr) por el nuevo (StackArMutatedNNNN).
+        // Armamos el código de la clase y reemplazamos el nombre original (StackAr) por el nuevo (StackArMutatedNNNN).
 <span class="nc" id="L85">        String mutantCode = mutatedSpoonClass.toString();</span>
 <span class="nc" id="L86">        mutantCode = mutantCode.replace(mutatedSpoonClass.getSimpleName(), mutantClassName);</span>
 <span class="nc" id="L87">        mutantCode = mutantCode.replace(mutatedSpoonClass.getPackage().toString() + &quot;.&quot; + mutantClassName,</span>
                 MUTANTS_PACKAGE_NAME + &quot;.&quot; + mutantClassName);
 
-        // Agregamos package name al principio del c��digo.
+        // Agregamos package name al principio del código.
 <span class="nc" id="L91">        mutantCode = &quot;package &quot; + MUTANTS_PACKAGE_NAME + &quot;;\n\n&quot; + mutantCode;</span>
 
         // Escribimos el archivo a disco.

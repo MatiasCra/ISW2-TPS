@@ -95,7 +95,7 @@ task randoop(type: JavaExec, dependsOn: jar) {
 
     args('gentests')
     args('--testclass', 'org.autotest.StackAr')
-    args('--time-limit', '15') // seconds
+    args('--time-limit', '60') // seconds
     args('--testsperfile', '50')
     args('--junit-output-dir', 'src/test/java')
     args('--junit-package-name', 'org.autotest.generated')
@@ -117,6 +117,7 @@ task randoopWithMutationAnalysis(type: JavaExec, dependsOn: jar) {
     args('--testsperfile', '50')
     args('--junit-output-dir', 'src/test/java')
     args('--junit-package-name', 'org.autotest.generated')
+    args('--omit-methods', 'getClass')
 
     dependsOn cleanGeneratedTests
     finalizedBy convertToMutationAnalysis

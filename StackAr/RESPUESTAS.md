@@ -44,20 +44,20 @@ El que generó menos fué NullReturns
 
 ### b)
 
-Vivos: 5
+Vivos: 5  
 Muertos: 69
 
 ### c)
 
-- StackArMutated6302 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 96.)
+- StackArMutated6302 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 96.)  
   El if de la linea 96 puede ganar performance pero no cambia la decicion de si se devuelve true o false ya que si los stacks son la misma variable igualmente dará true al comparar los elementos.
-- StackArMutated19 (MathMutator: Se reemplazó _ por / en la línea 89.)
-  Reemplazar _ 1 por / 1 no cambia nada
-- StackArMutated3933 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 69.)
+- StackArMutated19 (MathMutator: Se reemplazó * por / en la línea 89.)  
+  Reemplazar * 1 por / 1 no cambia nada
+- StackArMutated3933 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 69.)  
   El chequeo se vuelve a hacer en .top()
-- StackArMutated7656 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 105.)
+- StackArMutated7656 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 105.)  
   Los readIndex no pueden ser distintos si los elements son iguales, chequeo que se hace antes y si son distintos entra en otro return
-- StackArMutated7687 (TrueReturnsMutator: Se reemplazó false por true en la línea 106.)
+- StackArMutated7687 (TrueReturnsMutator: Se reemplazó false por true en la línea 106.)  
   Por misma razon que el anterior, nunca entra en el if
 
 ### d)
@@ -84,5 +84,16 @@ No
 100%
 
 ## 5
+
 ### a)
-17 tests fallaron
+
+382 tests fallaron. Todos los fallos se debian a que no se ponía en null el valor del stack al hacer un pop antes de decerementar el readIndex
+Ningún otro test falló al corregir el problema y repetir el proceso
+
+### b)
+
+81%
+
+### c)
+
+79%

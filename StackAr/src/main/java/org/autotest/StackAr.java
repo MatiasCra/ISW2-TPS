@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 import randoop.CheckRep;
 
+import static java.lang.Math.max;
+
 public class StackAr extends Stack {
 
     private final static int DEFAULT_CAPACITY = 10;
@@ -43,11 +45,12 @@ public class StackAr extends Stack {
             if (elems == null) {
                 return false;
             }
+
             if (!(readIndex >= -1 && readIndex < elems.length)) {
                 return false;
             }
 
-            for (int i = readIndex; i < elems.length; i++) {
+            for (int i = readIndex + 1; i < elems.length; i++) {
                 if (elems[i] != null) {
                     return false;
                 }
@@ -86,6 +89,7 @@ public class StackAr extends Stack {
             throw new IllegalStateException();
         }
         Object rv = this.top();
+        this.elems[readIndex] = null;
         readIndex--;
         return rv;
     }

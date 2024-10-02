@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.autotest.generated.RegressionTest22" tests="51" skipped="0" failures="0" errors="0" timestamp="2024-10-02T17:28:02" hostname="archlinux" time="0.071">
+  <properties/>
+  <testcase name="run()" classname="org.autotest.generated.RegressionTest22" time="0.059"/>
+  <testcase name="test1101()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1102()" classname="org.autotest.generated.RegressionTest22" time="0.001"/>
+  <testcase name="test1103()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1104()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1105()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1106()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1107()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1108()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1109()" classname="org.autotest.generated.RegressionTest22" time="0.001"/>
+  <testcase name="test1110()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1111()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1112()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1113()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1114()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1115()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1116()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1117()" classname="org.autotest.generated.RegressionTest22" time="0.001"/>
+  <testcase name="test1118()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1119()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1120()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1121()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1122()" classname="org.autotest.generated.RegressionTest22" time="0.001"/>
+  <testcase name="test1123()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1124()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1125()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1126()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1127()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1128()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1129()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1130()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1131()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1132()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1133()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1134()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1135()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1136()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1137()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1138()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1139()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1140()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1141()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1142()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1143()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1144()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1145()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1146()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1147()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1148()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1149()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <testcase name="test1150()" classname="org.autotest.generated.RegressionTest22" time="0.0"/>
+  <system-out><![CDATA[-> Corriendo tests de RegressionTest22 para la clase: StackAr (Stack original)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1308 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 15.)
+   [X] Falló el test test1108 en la línea 575
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3806 (NegateConditionsMutator: Se reemplazó == por != en la línea 76.)
+   [X] Falló el test test1108 en la línea 575
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated9553 (EmptyReturnsMutator: Se reemplazó result por 0 en la línea 111.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1229 (MathMutator: Se reemplazó + por - en la línea 109.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6879 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 72.)
+   [X] Falló el test test1108 en la línea 584
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated9238 (MinusOneConstantMutator: Se reemplazó 10 por -1 en la línea 11.)
+   [X] Falló el test test1114 en la línea 870
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5549 (IncrementsMutator: Se reemplazó -- por ++ en la línea 93.)
+   [X] Falló el test test1108 en la línea 580
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6514 (TrueReturnsMutator: Se reemplazó size() == 0 por true en la línea 72.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3403 (TrueConditionalsMutator: Se reemplazó obj == null por true en la línea 118.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8504 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 22.)
+   [X] Falló el test test1112 en la línea 781
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4104 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 108.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1474 (NegateConditionsMutator: Se reemplazó != por == en la línea 125.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8304 (FalseReturnsMutator: Se reemplazó size() == 0 por false en la línea 72.)
+   [X] Falló el test test1108 en la línea 584
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4147 (TrueReturnsMutator: Se reemplazó false por true en la línea 119.)
+   [X] Falló el test test1114 en la línea 890
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6563 (FalseConditionalsMutator: Se reemplazó capacity < 0 por false en la línea 22.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3011 (ConditionalsBoundaryMutator: Se reemplazó > por >= en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8221 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 68.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5150 (FalseConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por false en la línea 123.)
+   [X] Falló el test test1114 en la línea 894
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated68 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated9323 (FalseReturnsMutator: Se reemplazó size() == elems.length por false en la línea 76.)
+   [X] Falló el test test1112 en la línea 799
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3936 (NegateConditionsMutator: Se reemplazó != por == en la línea 120.)
+   [X] Falló el test test1106 en la línea 513
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5757 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 116.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3699 (TrueConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por true en la línea 123.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2842 (NullReturnsMutator: Se reemplazó rv por null en la línea 94.)
+   [X] Falló el test test1108 en la línea 583
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1797 (TrueReturnsMutator: Se reemplazó false por true en la línea 126.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2601 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8868 (ZeroConstantMutator: Se reemplazó 31 por 0 en la línea 107.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8438 (MathMutator: Se reemplazó * por / en la línea 109.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4597 (MathMutator: Se reemplazó + por - en la línea 110.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2255 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 88.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3301 (FalseConditionalsMutator: Se reemplazó isFull() por false en la línea 80.)
+   [X] Falló el test test1112 en la línea 799
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5048 (FalseConditionalsMutator: Se reemplazó getClass() != obj.getClass() por false en la línea 120.)
+   [X] Falló el test test1106 en la línea 513
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1640 (TrueConditionalsMutator: Se reemplazó this == obj por true en la línea 116.)
+   [X] Falló el test test1106 en la línea 527
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8357 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 22.)
+   [X] Falló el test test1108 en la línea 573
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated100 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 72.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8598 (OneConstantMutator: Se reemplazó 31 por 1 en la línea 107.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8310 (MathMutator: Se reemplazó + por - en la línea 68.)
+   [X] Falló el test test1108 en la línea 584
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated79 (TrueConditionalsMutator: Se reemplazó getClass() != obj.getClass() por true en la línea 120.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1969 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 88.)
+   [X] Falló el test test1108 en la línea 577
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5806 (TrueConditionalsMutator: Se reemplazó isFull() por true en la línea 80.)
+   [X] Falló el test test1108 en la línea 575
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1647 (EmptyReturnsMutator: Se reemplazó readIndex + 1 por 0 en la línea 68.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4678 (TrueReturnsMutator: Se reemplazó false por true en la línea 124.)
+   [X] Falló el test test1114 en la línea 894
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated7868 (TrueConditionalsMutator: Se reemplazó readIndex != other.readIndex por true en la línea 125.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6855 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 68.)
+   [X] Falló el test test1108 en la línea 584
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated9934 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 22.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8328 (NegateConditionsMutator: Se reemplazó <= por > en la línea 134.)
+   [X] Falló el test test1108 en la línea 580
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1296 (ZeroConstantMutator: Se reemplazó 10 por 0 en la línea 11.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated775 (IncrementsMutator: Se reemplazó ++ por -- en la línea 83.)
+   [X] Falló el test test1108 en la línea 575
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1494 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 134.)
+   [X] Falló el test test1108 en la línea 580
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6029 (MathMutator: Se reemplazó * por / en la línea 110.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated411 (MinusOneConstantMutator: Se reemplazó 31 por -1 en la línea 107.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6466 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 125.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3873 (TrueConditionalsMutator: Se reemplazó i > 0 por true en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6422 (NegateConditionsMutator: Se reemplazó < por >= en la línea 22.)
+   [X] Falló el test test1108 en la línea 573
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8325 (NegateConditionsMutator: Se reemplazó == por != en la línea 118.)
+   [X] Falló el test test1114 en la línea 863
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4488 (NegateConditionsMutator: Se reemplazó == por != en la línea 72.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5210 (NullReturnsMutator: Se reemplazó rv por null en la línea 102.)
+   [X] Falló el test test1108 en la línea 582
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated7114 (ConditionalsBoundaryMutator: Se reemplazó < por <= en la línea 22.)
+   [X] Falló el test test1112 en la línea 781
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated7310 (IncrementsMutator: Se reemplazó ++ por -- en la línea 134.)
+   [X] Falló el test test1117 en la línea 1006
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2185 (NegateConditionsMutator: Se reemplazó == por != en la línea 116.)
+   [X] Falló el test test1106 en la línea 527
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated8163 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 108.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4369 (TrueReturnsMutator: Se reemplazó size() == elems.length por true en la línea 76.)
+   [X] Falló el test test1108 en la línea 575
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3599 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 134.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated7517 (FalseReturnsMutator: Se reemplazó true por false en la línea 127.)
+   [X] Falló el test test1119 en la línea 1086
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4327 (FalseReturnsMutator: Se reemplazó true por false en la línea 117.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated3359 (TrueReturnsMutator: Se reemplazó false por true en la línea 121.)
+   [X] Falló el test test1106 en la línea 527
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6238 (EmptyReturnsMutator: Se reemplazó b.toString() por "" en la línea 143.)
+   [X] Falló el test test1108 en la línea 586
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated5666 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 98.)
+   [X] Falló el test test1106 en la línea 522
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated1101 (OneConstantMutator: Se reemplazó 10 por 1 en la línea 11.)
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2271 (FalseConditionalsMutator: Se reemplazó obj == null por false en la línea 118.)
+   [X] Falló el test test1114 en la línea 863
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated2593 (ConditionalsBoundaryMutator: Se reemplazó <= por < en la línea 134.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated4176 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 98.)
+   [X] Falló el test test1108 en la línea 576
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated6073 (NegateConditionsMutator: Se reemplazó > por <= en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Corriendo tests de RegressionTest22 para la clase: StackArMutated404 (FalseConditionalsMutator: Se reemplazó i > 0 por false en la línea 135.)
+   [X] Falló el test test1117 en la línea 1017
+-> Mutantes generados: 74
+-> Mutantes eliminados: 55
+    - StackArMutated3359 (TrueReturnsMutator: Se reemplazó false por true en la línea 121.)
+    - StackArMutated7517 (FalseReturnsMutator: Se reemplazó true por false en la línea 127.)
+    - StackArMutated8328 (NegateConditionsMutator: Se reemplazó <= por > en la línea 134.)
+    - StackArMutated1494 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 134.)
+    - StackArMutated4488 (NegateConditionsMutator: Se reemplazó == por != en la línea 72.)
+    - StackArMutated2185 (NegateConditionsMutator: Se reemplazó == por != en la línea 116.)
+    - StackArMutated4369 (TrueReturnsMutator: Se reemplazó size() == elems.length por true en la línea 76.)
+    - StackArMutated3599 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 134.)
+    - StackArMutated3873 (TrueConditionalsMutator: Se reemplazó i > 0 por true en la línea 135.)
+    - StackArMutated8325 (NegateConditionsMutator: Se reemplazó == por != en la línea 118.)
+    - StackArMutated5210 (NullReturnsMutator: Se reemplazó rv por null en la línea 102.)
+    - StackArMutated7310 (IncrementsMutator: Se reemplazó ++ por -- en la línea 134.)
+    - StackArMutated6422 (NegateConditionsMutator: Se reemplazó < por >= en la línea 22.)
+    - StackArMutated7114 (ConditionalsBoundaryMutator: Se reemplazó < por <= en la línea 22.)
+    - StackArMutated2271 (FalseConditionalsMutator: Se reemplazó obj == null por false en la línea 118.)
+    - StackArMutated6073 (NegateConditionsMutator: Se reemplazó > por <= en la línea 135.)
+    - StackArMutated5806 (TrueConditionalsMutator: Se reemplazó isFull() por true en la línea 80.)
+    - StackArMutated4678 (TrueReturnsMutator: Se reemplazó false por true en la línea 124.)
+    - StackArMutated7868 (TrueConditionalsMutator: Se reemplazó readIndex != other.readIndex por true en la línea 125.)
+    - StackArMutated1647 (EmptyReturnsMutator: Se reemplazó readIndex + 1 por 0 en la línea 68.)
+    - StackArMutated5048 (FalseConditionalsMutator: Se reemplazó getClass() != obj.getClass() por false en la línea 120.)
+    - StackArMutated6855 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 68.)
+    - StackArMutated1640 (TrueConditionalsMutator: Se reemplazó this == obj por true en la línea 116.)
+    - StackArMutated8357 (TrueConditionalsMutator: Se reemplazó capacity < 0 por true en la línea 22.)
+    - StackArMutated3301 (FalseConditionalsMutator: Se reemplazó isFull() por false en la línea 80.)
+    - StackArMutated9323 (FalseReturnsMutator: Se reemplazó size() == elems.length por false en la línea 76.)
+    - StackArMutated404 (FalseConditionalsMutator: Se reemplazó i > 0 por false en la línea 135.)
+    - StackArMutated1969 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 88.)
+    - StackArMutated68 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 135.)
+    - StackArMutated2601 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 135.)
+    - StackArMutated2842 (NullReturnsMutator: Se reemplazó rv por null en la línea 94.)
+    - StackArMutated3699 (TrueConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por true en la línea 123.)
+    - StackArMutated3936 (NegateConditionsMutator: Se reemplazó != por == en la línea 120.)
+    - StackArMutated8504 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 22.)
+    - StackArMutated4147 (TrueReturnsMutator: Se reemplazó false por true en la línea 119.)
+    - StackArMutated3011 (ConditionalsBoundaryMutator: Se reemplazó > por >= en la línea 135.)
+    - StackArMutated8304 (FalseReturnsMutator: Se reemplazó size() == 0 por false en la línea 72.)
+    - StackArMutated775 (IncrementsMutator: Se reemplazó ++ por -- en la línea 83.)
+    - StackArMutated9238 (MinusOneConstantMutator: Se reemplazó 10 por -1 en la línea 11.)
+    - StackArMutated1474 (NegateConditionsMutator: Se reemplazó != por == en la línea 125.)
+    - StackArMutated8310 (MathMutator: Se reemplazó + por - en la línea 68.)
+    - StackArMutated79 (TrueConditionalsMutator: Se reemplazó getClass() != obj.getClass() por true en la línea 120.)
+    - StackArMutated3403 (TrueConditionalsMutator: Se reemplazó obj == null por true en la línea 118.)
+    - StackArMutated6879 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 72.)
+    - StackArMutated1308 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 15.)
+    - StackArMutated5549 (IncrementsMutator: Se reemplazó -- por ++ en la línea 93.)
+    - StackArMutated2593 (ConditionalsBoundaryMutator: Se reemplazó <= por < en la línea 134.)
+    - StackArMutated6514 (TrueReturnsMutator: Se reemplazó size() == 0 por true en la línea 72.)
+    - StackArMutated5666 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 98.)
+    - StackArMutated6238 (EmptyReturnsMutator: Se reemplazó b.toString() por "" en la línea 143.)
+    - StackArMutated4176 (TrueConditionalsMutator: Se reemplazó isEmpty() por true en la línea 98.)
+    - StackArMutated8221 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 68.)
+    - StackArMutated5150 (FalseConditionalsMutator: Se reemplazó !java.util.Arrays.equals(elems, other.elems) por false en la línea 123.)
+    - StackArMutated100 (OneConstantMutator: Se reemplazó 0 por 1 en la línea 72.)
+    - StackArMutated3806 (NegateConditionsMutator: Se reemplazó == por != en la línea 76.)
+-> Mutantes vivos: 19
+    - StackArMutated4327 (FalseReturnsMutator: Se reemplazó true por false en la línea 117.)
+    - StackArMutated9934 (MinusOneConstantMutator: Se reemplazó 0 por -1 en la línea 22.)
+    - StackArMutated1296 (ZeroConstantMutator: Se reemplazó 10 por 0 en la línea 11.)
+    - StackArMutated6029 (MathMutator: Se reemplazó * por / en la línea 110.)
+    - StackArMutated6466 (FalseConditionalsMutator: Se reemplazó readIndex != other.readIndex por false en la línea 125.)
+    - StackArMutated8438 (MathMutator: Se reemplazó * por / en la línea 109.)
+    - StackArMutated4597 (MathMutator: Se reemplazó + por - en la línea 110.)
+    - StackArMutated2255 (FalseConditionalsMutator: Se reemplazó isEmpty() por false en la línea 88.)
+    - StackArMutated8598 (OneConstantMutator: Se reemplazó 31 por 1 en la línea 107.)
+    - StackArMutated8163 (MinusOneConstantMutator: Se reemplazó 1 por -1 en la línea 108.)
+    - StackArMutated1797 (TrueReturnsMutator: Se reemplazó false por true en la línea 126.)
+    - StackArMutated5757 (FalseConditionalsMutator: Se reemplazó this == obj por false en la línea 116.)
+    - StackArMutated8868 (ZeroConstantMutator: Se reemplazó 31 por 0 en la línea 107.)
+    - StackArMutated4104 (ZeroConstantMutator: Se reemplazó 1 por 0 en la línea 108.)
+    - StackArMutated6563 (FalseConditionalsMutator: Se reemplazó capacity < 0 por false en la línea 22.)
+    - StackArMutated411 (MinusOneConstantMutator: Se reemplazó 31 por -1 en la línea 107.)
+    - StackArMutated1229 (MathMutator: Se reemplazó + por - en la línea 109.)
+    - StackArMutated1101 (OneConstantMutator: Se reemplazó 10 por 1 en la línea 11.)
+    - StackArMutated9553 (EmptyReturnsMutator: Se reemplazó result por 0 en la línea 111.)
+-> Mutation score: 74%
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 1 keys and 74 values
+]]></system-err>
+</testsuite>
