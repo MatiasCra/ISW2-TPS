@@ -1,2 +1,3 @@
 Iteración,Input Concreto,Condición de Ruta,Especificación para Z3,Resultado Z3,Renombres
-1,n= 0,
+1,n=0,c1,iteracion1.smt,n=1,c1=not (0<n)
+2,n=1,c2,iteracion2.smt,n=2,c2=not (1<n)
