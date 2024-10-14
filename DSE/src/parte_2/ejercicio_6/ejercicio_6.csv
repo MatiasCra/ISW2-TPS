@@ -1,18 +1,17 @@
 Iteración,Input Concreto,Condición de Ruta,Especificación para Z3,Resultado Z3,Renombres
-1,k=0.0,c1_0 and not c2_0 and c1_1 and not c2_1 and c1_2 and not c2_2 and not c1_3,iteracion1a.smt,unsat,C1_0= (0 < 3)
-,,,iteracion1b.smt,unsat,C2_0= (5 + k==0)
-,,,iteracion1c.smt,unsat,C1_1= (1 < 3)
-,,,iteracion1d.smt,unsat,,C2_1= (1 + k==0)
-,,,iteracion1e.smt,k=-5.0
-2,k=-5.0,c1_0 and c2_0 and c1_1 and not c2_1 and c1_2 and not c2_2 and not c1_3,iteracion2a.smt,unsat,C1_2= (2 < 3)
-,,,iteracion2b.smt,unsat,C2_2= (3 + k==0)
-,,,iteracion2c.smt,unsat,C1_3= (3 < 3)
-,,,iteracion2d.smt,unsat,
-,,,iteracion2e.smt,unsat,
-,,,iteracion2f.smt,k=-1.0
-3,k=-1.0,c1_0 and not c2_0 and c1_1 and c2_1 and c1_2 and not c2_2 and not c1_3,iteracion3a.smt,unsat
-,,,iteracion3b,unsat
-,,,iteracion3c.smt,unsat
-,,,iteracion3d.smt,unsat
-,,,iteracion3e.smt,k=-3.0
-15,k=-1.0,c1_0 and not c2_0 and c1_1 and not c2_1 and c1_2 and c2_2 and not c1_3,iteracion14.smt,unsat
+1,k=0.0,c1_0 and not c2_0 and c1_1 and not c2_1 and c1_2 and not c2_2 and not c1_3,iteracion1a.smt,unsat,C1_0=(0 < 3)
+_,_,_,iteracion1b.smt,k=-3.0,C2_0=(5 + k==0)
+2,k=-3.0,c1_0 and not c2_0 and c1_1 and not c2_1 and c1_2 and c2_2 and not c1_3,iteracion2a.smt,unsat,C1_1=(1 < 3)
+_,_,_,iteracion2b.smt,unsat,C2_1=(1 + k==0)
+_,_,_,iteracion2c.smt,k=-1.0,C2_2=(3 + k==0)
+3,k=-1.0,c1_0 and not c2_0 and c1_1 and c2_1 and c1_2 and not c2_2 and not c1_3,iteracion3a.smt,unsat,C1_3=(3 < 3)
+_,_,_,iteracion3b.smt,unsat,
+_,_,_,iteracion3c.smt,unsat,
+_,_,_,iteracion3d.smt,unsat,
+_,_,_,iteracion3e.smt,k=-5.0,
+4,k=-5.0,c1_0 and c2_0 and c1_1 and not c2_1 and c1_2 and not c2_2 and not c1_3,iteracion4a.smt,unsat,
+_,_,_,iteracion4b.smt,unsat,
+_,_,_,iteracion4c.smt,unsat,
+_,_,_,iteracion4d.smt,unsat,
+_,_,_,iteracion4e.smt,unsat,
+_,_,_,iteracion4f.smt,unsat,
