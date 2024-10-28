@@ -6,6 +6,9 @@ from src.create_population import create_test_case, get_random_character
 
 def add_character(test_case: str) -> str:
     chosen_char = get_random_character()
+    if len(test_case) == 0:
+        return chosen_char
+
     position = choice(range(len(test_case)))
     return test_case[:position] + chosen_char + test_case[position:]
 
