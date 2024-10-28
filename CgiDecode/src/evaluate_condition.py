@@ -101,7 +101,7 @@ def evaluate_condition(
             default=sys.maxsize,
         )
         dist_true = 0 if res else dist
-        dist_false = 0 if res else 1
+        dist_false = 1 if res else 0
 
     update_maps(condition_num, dist_true, dist_false)
     return res
